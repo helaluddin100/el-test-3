@@ -438,6 +438,10 @@ body {
       }
 
       .quick-access {
+        padding-right: 20px;
+        @media screen and (max-width: 1140px) {
+          padding-right: 0;
+        }
         .section-title {
           font-size: 19px;
           font-weight: 700;
@@ -493,7 +497,10 @@ body {
 
       .recent-file {
         margin-top: 60px;
-
+        margin-right: 20px;
+        @media screen and (max-width: 1140px) {
+          margin-right: 0;
+        }
         .grid-2 {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -566,7 +573,7 @@ body {
             .file-manager-wrapper {
               display: grid;
               grid-template-columns: 1fr 1fr;
-              gap: 30px;
+              gap: 20px;
 
               .file-card {
                 border-radius: 8.994px;
